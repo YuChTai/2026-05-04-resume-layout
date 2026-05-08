@@ -1,0 +1,106 @@
+.name,
+.acaademic-background,
+.residential-district {
+  margin: 32px 335px 48px;
+}
+
+h3 {
+  margin: 0 30px 10px;
+
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+hr {
+  border: 1.5px solid black;
+  margin: 0 335px;
+}
+
+/*--- categroy ---*/
+.category-name {
+  margin: 0 30px;
+}
+.category-autobiography,
+.category-experience,
+.category-information {
+  display: block;
+  margin: 0 0 45px 30px;
+}
+.category-autobiography hr,
+.category-experience hr,
+.category-information hr {
+  border: 1.5px solid black;
+  margin: 0 30px;
+}
+
+/*--- information ---*/
+.information {
+  position: relative;
+
+  margin: 16px 335px 300px 335px;
+}
+.information .information-left,
+.information .information-right {
+  width: 335px;
+
+  position: absolute;
+}
+.information .information-right {
+  margin: 0 0 0 367px;
+}
+.information-information-left-container {
+  width: 335px;
+  position: absolute;
+}
+.information-information-right-container {
+  width: 335px;
+  position: absolute;
+}
+.information-information-left-container table {
+  width: 100%;
+}
+.information-information-left-container th {
+  text-align: left;
+
+  font-size: 18px;
+}
+.information-information-left-container td {
+  font-size: 16px;
+
+  display: inline-block;
+
+  margin: 0 0 8px 0;
+}
+
+/*--- eduductional-background ---*/
+.eduductional-background-table {
+  width: 100%;
+}
+.eduductional-background-table-column {
+  text-align: start;
+
+  font-size: 18px;
+}
+.eduductional-background-table-information-information-left-container {
+  text-align: start;
+
+  font-size: 16px;
+}
+.eduductonal-background {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  box-sizing: border-box;
+}
+.eduductional-background-university-department {
+  width: 50%;
+  align-self: flex-start;
+  padding: 16px 0 16px 0;
+  box-sizing: border-box;
+}
+.eduductional-background-during-studies {
+  width: 50%;
+  align-self: flex-start;
+  padding: 16px 0 16px 0;
+  box-sizing: border-box;
+}
